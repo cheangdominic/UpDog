@@ -22,7 +22,7 @@ getNameFromAuth();
 
 
 document.addEventListener("DOMContentLoaded", async function () {
-    const mapboxToken = 'pk.eyJ1IjoiZGNoZWFuZyIsImEiOiJjbTM3aXVka3YwZ2lpMmlwd2VndTN0NWw4In0.UNRVJNRE_fuqrK5LtRYHKg';  // Mapbox token for geolocation services
+    const mapboxToken = 'pk.eyJ1IjoiZGNoZWFuZyIsImEiOiJjbThnZ3lqZHkwbXJlMmxwa3Y5bDlkeGZ5In0.a_DldsA41HfVtmcQ7PkJTA';  // Mapbox token for geolocation services
     const dogSelectionModal = document.getElementById("dogSelectionModal");  // Modal for dog selection
     const dogListContainer = document.getElementById("dogList");  // Container to hold dog options
     const confirmDogsButton = document.getElementById("confirmDogsButton");  // Button to confirm dog selection

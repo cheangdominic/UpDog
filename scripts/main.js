@@ -24,7 +24,7 @@ getNameFromAuth();
 
 // Event listener that runs once the document content is fully loaded
 document.addEventListener("DOMContentLoaded", async function () {
-    const mapboxToken = 'pk.eyJ1IjoiZGNoZWFuZyIsImEiOiJjbTM3aXVka3YwZ2lpMmlwd2VndTN0NWw4In0.UNRVJNRE_fuqrK5LtRYHKg';
+    const mapboxToken = 'pk.eyJ1IjoiZGNoZWFuZyIsImEiOiJjbThnZ3lqZHkwbXJlMmxwa3Y5bDlkeGZ5In0.a_DldsA41HfVtmcQ7PkJTA';
 
     // Variables for the modal and button elements in the DOM
     const dogSelectionModal = document.getElementById("dogSelectionModal");

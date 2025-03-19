@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZGNoZWFuZyIsImEiOiJjbTM3aXVka3YwZ2lpMmlwd2VndTN0NWw4In0.UNRVJNRE_fuqrK5LtRYHKg';
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZGNoZWFuZyIsImEiOiJjbThnZ3lqZHkwbXJlMmxwa3Y5bDlkeGZ5In0.a_DldsA41HfVtmcQ7PkJTA';
 
     const map = new mapboxgl.Map({
         container: 'map', // Initialize the map container
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
             localGeocoder: coordinatesGeocoder, // Use custom geocoder
             zoom: 14, // Set the zoom level for search
             placeholder: 'Search', // Set the search placeholder
-            types: 'poi', // Restrict the search to points of interest
+            types: 'address,place,postcode,poi',
             mapboxgl: mapboxgl,
             reverseGeocode: true, // Enable reverse geocoding
         }),
