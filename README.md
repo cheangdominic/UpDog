@@ -40,75 +40,76 @@ Content of the project folder:
 
 ```
  Top level of project folder: 
-├── .gitignore               # Git ignore file
-├── 404.html                 # 404 error HTML file, shown when file is not able to be shown
-├── chat.html		     # chat HTML file, page where users chat to eachother
-├── create_doggo.html        # add dog HTML file, page where users can add their own dog
-├── dog_profile.html         # dog profile HTML file, the base page for a user's dog's profile
-├── edit_profile.html        # edit dog profile HTML file, the base page for when a user edits their profile
-├── FAQ.html                 
-├── firebase.json            # 
-├── firebase.indexes.json
-├── firestore.rules
-├── friends.html             # friends HTML file, the page to show a user's added friends and friend requests
-├── inbox.html               # joined playdates HTML file, displays the playdates a user has joined
-├── index.html               # landing HTML file, this is what users see when you come to url
-├── login.html               # login HTML file, this is what users see when they want to login
-├── main.html          	     # main page HTML file, what users see when they login
-├── maps.html                # map page HTML file, displays the map UI
-├── navigation_info.html     # article page HTML file, information about our apps ability to make park navigation easier
-├── playdates_info.html      # article page HTML file, information about our playdate feature
-├── profile.html             # profile HTML file, base page for a user's profile
-├── public_profile.html      # public profile HTML file, base page for a user's public profile
-├── README.md
-└── socializing_info.html    # article page HTML file, information about socializing on our app
+├── .gitignore               # Git ignore file, specifies intentionally untracked files to ignore
+├── 404.html                 # 404 error HTML page, displayed when a user navigates to a non-existent page
+├── chat.html		     # Chat page HTML file, where users can chat with each other
+├── create_doggo.html        # Add dog HTML page, allows users to add a new dog to their profile
+├── dog_profile.html         # Dog profile HTML page, displays a user's dog's details
+├── edit_profile.html        # Edit dog profile HTML page, allows users to edit their dog's info
+├── FAQ.html                 # Frequently Asked Questions page HTML
+├── firebase.json            # Firebase configuration file for hosting and project setup
+├── firebase.indexes.json    # Firebase Firestore indexes configuration
+├── firestore.rules          # Firestore security rules
+├── friends.html             # Friends page HTML, displays a user's friends and friend requests
+├── inbox.html               # Inbox page HTML, shows the playdates a user has joined
+├── index.html               # Landing page HTML, default page when visiting the app URL
+├── login.html               # Login page HTML, allows users to log into the app
+├── main.html          	     # Main page HTML, dashboard shown after login
+├── maps.html                # Map page HTML, displays park maps and geolocation features
+├── navigation_info.html     # Article page HTML, explains app's park navigation features
+├── playdates_info.html      # Article page HTML, explains the playdate feature
+├── profile.html             # Profile page HTML, shows user's personal profile
+├── public_profile.html      # Public profile page HTML, shows other users' public profiles
+├── README.md                # Project README file, contains documentation and setup instructions
+└── socializing_info.html    # Article page HTML, explains socializing features in the app
 
-It has the following subfolders and files:
-├── .git                     # Folder for git repo
-├── images                   # Folder for images
-    /blah.jpg                # Acknowledge source
-├── scripts                  # Folder for scripts
-    /authentication.js       # Firebae authentication
-    /autoaddress.js          # Geocoder auto address selection
-    /chat.js                 # Chat feature
-    /create_doggo.js         # Creating a dog
-    /dateofplaydate.js       # The min and max of selected date for playdate creation
-    /dogprofile.js           # Dog profiles
-    /editdogprofile.js       # Editting dog profiles
-    /editpost.js             # Editing of playdates
-    /editprofile.js          # Editing of profiles
-    /firebaseAPI_UpDog.js    # API set up for firebase
-    /friends.js              # Friends feature
-    /joinedList.js           # List of joined playdates
-    /login.js                # Login
-    /main.js                 # Population of playdates and main page
-    /map.js                  # Map interaction with MapBox
-    /participants.js         # Playdate participants
-    /playdates.js            # Saving playdates and deleting expired playdates
-    /profile.js              # Population of profiles
-    /publicprofile.js        # Population of public profiles
-    /script.js               # Helper functions
-    /skeleton.js             # Framework of navbars etc.
-    /welcomealert.js         # Welcome greeting
-├── styles                   # Folder for styles
-    /chat.css               #
-    /color.css
-    /dogprofile.css
-    /editdogprofile.css
-    /editpost.css
-    /editprofile.css
-    /friends.css
-    /inbox.css
-    /joinedList.css
-    /loggedin.css
-    /loggedout.css
-    /loginpage.css
-    /main.css
-    /map.css
-    /postcreate.css
-    /profile.css
-    /publicprofile.css
-    /styles.css
+Subfolders and files:
+├── .git                     # Git repository folder
+├── images                   # Folder containing images
+    /blah.jpg                # Example image file, include source acknowledgement
+├── scripts                  # Folder containing JavaScript files
+    /authentication.js       # Handles Firebase authentication
+    /autoaddress.js          # Geocoder auto address selection for playdates
+    /chat.js                 # Chat functionality between users
+    /create_doggo.js         # Logic for creating a new dog profile
+    /dateofplaydate.js       # Sets min/max dates for playdate creation
+    /dogprofile.js           # Displays dog profile information
+    /editdogprofile.js       # Edits a dog's profile information
+    /editpost.js             # Edits a playdate post
+    /editprofile.js          # Edits user profile information
+    /firebaseAPI_UpDog.js    # Firebase API setup and helpers
+    /friends.js              # Friend management functionality
+    /joinedList.js           # Displays list of playdates user has joined
+    /login.js                # Login page logic
+    /main.js                 # Populates main page with playdates and content
+    /map.js                  # Map interactions with MapBox
+    /participants.js         # Manages participants for playdates
+    /playdates.js            # Saves playdates and removes expired ones
+    /profile.js              # Populates user profile page
+    /publicprofile.js        # Populates public profile page
+    /script.js               # General helper functions
+    /skeleton.js             # Sets up page layout skeleton, navbars, etc.
+    /welcomealert.js         # Displays welcome greeting to users
+├── styles                   # Folder containing CSS styles
+    /chat.css                # Styles specific to chat page
+    /color.css               # Defines color schemes and variables
+    /dogprofile.css          # Styles for dog profile page
+    /editdogprofile.css      # Styles for edit dog profile page
+    /editpost.css            # Styles for editing playdates
+    /editprofile.css         # Styles for editing user profile
+    /friends.css             # Styles for friends page
+    /inbox.css               # Styles for inbox/joined playdates page
+    /joinedList.css          # Styles for joined playdates list page
+    /loggedin.css            # Styles applied when user is logged in
+    /loggedout.css           # Styles applied when user is logged out
+    /loginpage.css           # Styles for login page
+    /main.css                # Styles for main page/dashboard
+    /map.css                 # Styles for map page
+    /postcreate.css          # Styles for creating playdate posts
+    /profile.css             # Styles for user's profile page
+    /publicprofile.css       # Styles for public profiles of other users
+    /styles.css              # General global styles
+
 
 
 
