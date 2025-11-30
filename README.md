@@ -42,7 +42,7 @@ Content of the project folder:
  Top level of project folder: 
 ├── .gitignore               # Git ignore file, specifies intentionally untracked files to ignore
 ├── 404.html                 # 404 error HTML page, displayed when a user navigates to a non-existent page
-├── chat.html		     # Chat page HTML file, where users can chat with each other
+├── chat.html		         # Chat page HTML file, where users can chat with each other
 ├── create_doggo.html        # Add dog HTML page, allows users to add a new dog to their profile
 ├── dog_profile.html         # Dog profile HTML page, displays a user's dog's details
 ├── edit_profile.html        # Edit dog profile HTML page, allows users to edit their dog's info
@@ -109,10 +109,6 @@ Subfolders and files:
     /profile.css             # Styles for user's profile page
     /publicprofile.css       # Styles for public profiles of other users
     /styles.css              # General global styles
-
-
-
-
 ```
 
 
